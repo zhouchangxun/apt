@@ -13,7 +13,7 @@ then you can place dir 'dists' and 'pool' to your web server.
 # just for fun:
 even you can use github pages as your apt repository. for example:
 1. add this line to /etc/apt/sources.list
-  > deb  http://oh-my.ga/apt/ zesty main
+  > deb  http://zhouchangxun.github.io/apt/ zesty main
   
 2. apt-get update
 3. apt-get install busybox
