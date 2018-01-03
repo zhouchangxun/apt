@@ -1,0 +1,7 @@
+Origin: Debian 
+Label: Debian 
+Codename: zesty
+Architectures:  i386 amd64  
+Components: main 
+Version: 17.04 
+Description: customized APT Repository

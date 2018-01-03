@@ -1,0 +1,29 @@
+Origin: Debian
+Label: Debian
+Codename: zesty
+Version: 17.04
+Date: Wed, 03 Jan 2018 03:15:00 UTC
+Architectures: i386 amd64
+Components: main
+Description: customized APT Repository
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ ec23f68947efac76997952617e185552 118 main/binary-i386/Release
+ eddf8bd2b5f17018fd6047778e3652d8 4306 main/binary-amd64/Packages
+ ada09fd208695b9cc96c0d8ece89fe2d 1847 main/binary-amd64/Packages.gz
+ 549df4eef99875126c2e3ba34dc5d778 119 main/binary-amd64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ 2d7028d00c054732a96668412fb8ad759f5530a1 118 main/binary-i386/Release
+ f7a813e661f761e3f1ebc228057b3b156b8be316 4306 main/binary-amd64/Packages
+ 637d3a833860579f83d22ec9cbf2d92b34291874 1847 main/binary-amd64/Packages.gz
+ e7d78ed1bab40ccbf27672a3f0e69ca11d118dd9 119 main/binary-amd64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ 8aa84b2b3afb4d69fa38e347f90bd4313c36d689786473e40785c0997f9c1fba 118 main/binary-i386/Release
+ 047d1eb0e052bd4c445189416bf46e5af9990388f95f14d5ccc1f6fb8c9beefd 4306 main/binary-amd64/Packages
+ 05dc09ba6c470e7093e80f15d7a382d726d83a37390f3f1a3fa1ea8370c912e1 1847 main/binary-amd64/Packages.gz
+ f9554f2495faea2e267583333ed0a2dc0d993b0b77e70f7b1f6badf64028fd3c 119 main/binary-amd64/Release

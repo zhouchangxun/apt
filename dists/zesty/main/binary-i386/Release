@@ -1,0 +1,6 @@
+Version: 17.04
+Component: main
+Origin: Debian
+Label: Debian
+Architecture: i386
+Description: customized APT Repository

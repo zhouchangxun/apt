@@ -1,0 +1,101 @@
+Package: busybox
+Version: 1:1.22.0-19ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 732
+Depends: libc6 (>= 2.16)
+Conflicts: busybox-static
+Breaks: initramfs-tools (<< 0.99)
+Replaces: busybox-static
+Homepage: http://www.busybox.net
+Priority: optional
+Section: utils
+Filename: pool/main/b/busybox/busybox_1.22.0-19ubuntu2_amd64.deb
+Size: 385922
+SHA256: cf85cc738a9f17fe67a64ce9a6fb19c0df0b89e0ce686b6a66d1ed71cb316734
+SHA1: 6560271927805e613ea9757825ed5ed98c2fbf82
+MD5sum: 6ab4dd998201842797e2465bb8003444
+Description: Tiny utilities for small and embedded systems
+ BusyBox combines tiny versions of many common UNIX utilities into a single
+ small executable. It provides minimalist replacements for the most common
+ utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+ mount, tar, etc.). The utilities in BusyBox generally have fewer options than
+ their full-featured GNU cousins; however, the options that are included
+ provide the expected functionality and behave very much like their GNU
+ counterparts.
+ .
+ This package installs the BusyBox binary but does not install
+ symlinks for any of the supported utilities. Some of the utilities
+ can be used in the system by installing the busybox-syslogd,
+ busybox-udhcpc or busybox-udhcpd packages.
+Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+
+Package: gcc-6-base
+Source: gcc-6
+Version: 6.3.0-12ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 72
+Breaks: gcc-4.4-base (<< 4.4.7), gcc-4.7-base (<< 4.7.3), gcj-4.4-base (<< 4.4.6-9~), gcj-4.6-base (<< 4.6.1-4~), gnat-4.4-base (<< 4.4.6-3~), gnat-4.6 (<< 4.6.1-5~)
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Priority: required
+Section: libs
+Filename: pool/main/g/gcc-6/gcc-6-base_6.3.0-12ubuntu2_amd64.deb
+Size: 17406
+SHA256: b23fc6bc3b8cc7a0ce0fdd82cb739c19cc4aeb6984dd5c4647a45e261b129db2
+SHA1: ebf954d0558767c835bd641682a45e2c960441e6
+MD5sum: de3c4cf3dd2f10c221e1da8a2c4c7194
+Description: GCC, the GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libc6
+Source: glibc
+Version: 2.24-9ubuntu2.2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10968
+Depends: libgcc1
+Suggests: glibc-doc, debconf | debconf-2.0, locales
+Breaks: hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.24), locales-all (<< 2.24), lsb-core (<= 3.2-27), nscd (<< 2.24)
+Replaces: libc6-amd64
+Multi-Arch: same
+Homepage: http://www.gnu.org/software/libc/libc.html
+Priority: required
+Section: libs
+Filename: pool/main/g/glibc/libc6_2.24-9ubuntu2.2_amd64.deb
+Size: 2589804
+SHA256: d29e44b642ee6c5550e71b276da80c23951451b098142b7713cb938ea8274035
+SHA1: 53da0f056d455f06c2947e67b455e2893ed2e662
+MD5sum: e5a055c984cafb91b140bd94f8b3e56c
+Description: GNU C Library: Shared libraries
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+
+Package: libgcc1
+Source: gcc-6 (6.3.0-12ubuntu2)
+Version: 1:6.3.0-12ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 108
+Depends: gcc-6-base (= 6.3.0-12ubuntu2), libc6 (>= 2.14)
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Multi-Arch: same
+Homepage: http://gcc.gnu.org/
+Priority: required
+Section: libs
+Filename: pool/main/g/gcc-6/libgcc1_6.3.0-12ubuntu2_amd64.deb
+Size: 38074
+SHA256: 035e28324fef9835d1028b2781c2648adcf57c7e1531ae96734fd7a208acb67b
+SHA1: 6c58ba115367b3d2231468d7bc8c36c7e368aadf
+MD5sum: caefd9517552fcb926333a71261a4582
+Description: GCC support library
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
