@@ -1,5 +1,8 @@
-description : make your own deb repository
-
+description : 
+  make your own deb repository
+  
+prerequirement:
+  apt install reprepro
 usage:
 1. edit soft.list
 2. run 0-download-deb.sh
